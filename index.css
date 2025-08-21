@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10px;
+  color: #fff;
+  background-image: url(/assets/background.svg);
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+}
+
+.title {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.subtitle {
+  font-weight: 600;
+  text-align: center;
+  color: #dddddd;
+}
+
+.description {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description p {
+  font-size: 17px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+}
+
+.lista li {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 6px;
+  background-color: #0f041f;
+  border-radius: 6px;
+  border: 1px solid #4a11a1;
+}
+
+.icon {
+  color: #6600ff;
+}
+
+@media (width <=768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  .description {
+    width: 90%;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .lista {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .lista li {
+    font-size: 12px;
+    padding: 4px 4px;
+  }
+}
