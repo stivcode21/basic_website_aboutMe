@@ -17,44 +17,78 @@
   </head>
   <body>
     <div class="container">
-      <header class="container-header">
-        <img src="/assets/FotoPerfil.png" alt="foto-perfil" class="img" />
-        <h1 class="title">Johan Stiven Tapasco Correa</h1>
-        <h2 class="subtitle">Desarrollador web</h2>
-      </header>
-      <div class="description">
-        <p>
-          Soy un desarrollador junior frontend entusiasta y en constante
-          crecimiento, actualmente estudiando en el SENA con el objetivo de
-          ampliar mis conocimientos y abrirme camino en el mundo del desarrollo,
-          una pasión que descubrí de manera autodidacta.
-        </p>
-        <p>
-          Antes de dedicarme a la programación, trabajé durante tres años como
-          técnico en motocicletas, una labor que me dio disciplina y constancia,
-          pero cuyos horarios agotadores me llevaron a buscar nuevos horizontes.
-          Un día, viendo un video sobre desarrollo web, descubrí un mundo que
-          despertó mi curiosidad y motivación. Desde entonces, me propuse
-          aprender por mi cuenta, dedicando mis noches a cursos, comunidades y
-          mucha investigación personal.
-        </p>
-      </div>
-      <footer>
-        <ul class="lista">
-          <li>
-            <span class="material-symbols-outlined icon"> phone_in_talk </span>
-            3138119455
-          </li>
-          <li>
-            <span class="material-symbols-outlined icon"> drafts </span
-            >Estiven.tapasco13@gmail.com
-          </li>
-          <li>
-            <span class="material-symbols-outlined icon"> article </span>Ficha -
-            3292060
-          </li>
-        </ul>
-      </footer>
+      <section class="column1">
+        <header class="container-header">
+          <img src="/assets/FotoPerfil.png" alt="foto-perfil" class="img" />
+          <h1 class="title">Johan Stiven Tapasco Correa</h1>
+          <h2 class="subtitle">Desarrollador web</h2>
+        </header>
+        <div class="description">
+          <p>
+            Soy un desarrollador junior frontend entusiasta y en constante
+            crecimiento, actualmente estudiando en el SENA con el objetivo de
+            ampliar mis conocimientos y abrirme camino en el mundo del
+            desarrollo, una pasión que descubrí de manera autodidacta.
+          </p>
+          <p>
+            Antes de dedicarme a la programación, trabajé durante tres años como
+            técnico en motocicletas, una labor que me dio disciplina y
+            constancia, pero cuyos horarios agotadores me llevaron a buscar
+            nuevos horizontes. Un día, viendo un video sobre desarrollo web,
+            descubrí un mundo que despertó mi curiosidad y motivación. Desde
+            entonces, me propuse aprender por mi cuenta, dedicando mis noches a
+            cursos, comunidades y mucha investigación personal.
+          </p>
+        </div>
+        <footer>
+          <ul class="lista">
+            <li>
+              <span class="material-symbols-outlined icon">
+                phone_in_talk
+              </span>
+              3138119455
+            </li>
+            <li>
+              <span class="material-symbols-outlined icon"> drafts </span
+              >Estiven.tapasco13@gmail.com
+            </li>
+            <li>
+              <span class="material-symbols-outlined icon"> article </span>Ficha
+              - 3292060
+            </li>
+          </ul>
+        </footer>
+      </section>
+      <form class="column2">
+        <h1 class="Title">¡Dejame tu mensaje!</h1>
+        <div class="box-input">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            class="input"
+            id="nombre"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div class="box-input">
+          <label for="Correo">Correo:</label>
+          <input
+            type="text"
+            class="input"
+            id="Correo"
+            placeholder="Tu correo"
+          />
+        </div>
+        <div class="box-input">
+          <label for="Correo">Mensaje:</label>
+          <textarea
+            class="input"
+            id="mensaje"
+            placeholder="Tu mensaje"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
     </div>
   </body>
 </html>
